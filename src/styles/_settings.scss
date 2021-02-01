@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Marck + Script & family = Orbitron & display = swap'); 
+
+
+$font-1: 'Nova Round', cursive;
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
+$font-4: 'Marck, Script';
+$font-5: 'Orbitron';
+
+$color-1: #e0e8dc;
+$color-2: #DDBBFF;
+$color-3: #C5B8FF;
+$color-4: #C5B8FF;
+$color-5: #9FB7FF;
+$color-6: #2a1d52;
+$color-7: rgb(255, 255, 255);
+$color-8: #504e4e;
+$color-9:  #18dcff;
+$color-10: rgb(190, 188, 188);
+$color-10:  #ff4d4d;
+$color-11:  #27AE60;
+$white: #ddd;
+$black: #333;
+$red: rgb(232, 18, 18);
+
+
+
+$borderRadius: 35px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: $font-5;
+  color: $black;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+a:visited {
+  color:$black;
+}
+.accueil, .competences, .portfolio, .contact {
+  display: flex;
+
+  @media screen and (max-width: 850px){
+    display: block !important;
+  }
+}
+.accueilContent, .competencesContent, .portfolioContent, .contactContent {
+  margin-left: .4rem;
+
+  @media screen and (max-width: 850px){
+    margin-left: 0 !important;
+  }
+}
