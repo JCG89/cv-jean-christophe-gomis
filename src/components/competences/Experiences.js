@@ -5,8 +5,8 @@ const Experiences = () => {
     <div className="experience">
       <h3>Experience</h3>
       <div className="exp-1">
-        <h4> Commerce(Vival by Casino)Opérateur de production(Magic Rambo)</h4>
-        <h5>2015-2019</h5>
+        <h4>2017- 2019 VENDEUR, CAISSIER, GERANT (Vival by Casino,Opérateur de production Magic Rambo)</h4>
+        <h4>2015-2017 COMMERCE PRÊt A PORTER</h4>
         <p>
           {" "}
           Amoureux du contact humain, j'ai occupé plusieurs poste en rapport
@@ -14,17 +14,17 @@ const Experiences = () => {
           développé des qualités d'organisation, de gestion des délais et du
           stress, ainsi qu'un bon sens de la relation client comme:
           <ul>
-              <li>
-                 -Receptionner un produit et vérifier la conformité de la livraison
-              </li>
-              <li>
-                 -Realiser le balisage et l'étiquetage des produits en rayons,controler l'état de conservation des produits pérrissable.
-              </li>
-              <li>
-                 -Prise en main , gestion des logiciels et suivi de stock.
-              </li>
+            <li>
+              -Receptionner un produit et vérifier la conformité de la livraison
+            </li>
+            <li>
+              -Realiser le balisage et l'étiquetage des produits en rayons,controler l'état de conservation des produits pérrissable.
+            </li>
+            <li>
+              -Prise en main , gestion des logiciels et suivi de stock.
+            </li>
           </ul>
-         
+
 
         </p>
       </div>
@@ -34,10 +34,9 @@ const Experiences = () => {
         <h5>2003-2014</h5>
         <p>
           {" "}
-          Suite à une formation et  une licence pro,j'ai été fotballeur professionnel au Sénegal.<br />
-          J'ai signer dans plusieurs clubs de la LFPS comme: l'As Douanes ,l'as Cambérene ,lalinguére de St Louis.
-          Mon parcours de footballeur m'a permis de développer un mental à tout épreuves et un sens du collectif.
-          
+          J'ai suivi un cursus sport-études , avant de signer dans plusieurs clubs de la Fédération sénégalaise de football.
+          Ce passage dans le monde du sport m'a donné un mental à tout épreuve, la créativité l'exigence en soi et un esprit  d'équipe
+
         </p>
       </div>
     </div>

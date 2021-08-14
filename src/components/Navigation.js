@@ -46,11 +46,11 @@ const Navigation = () => {
                         rel = "noopener noreferrer"><i className = "fab fa-linkedin"></i></a>
                     </li>
                     <li>
-                        <a href = "https://google.com" target ="_blank"
+                        <a href = "https://mail.google.com/mail/u/0/#inbox/FMfcgzGkXSVnghHRClFmtZcJqHWXFjGh?compose=new" target ="_blank"
                         rel = "noopener noreferrer"><i className = "far fa-envelope"></i></a>
                     </li>
                     <li>
-                        <a href = "https://github.com/JC-20" target ="_blank"
+                        <a href = "https://github.com/christophegomis89" target ="_blank"
                         rel = "noopener noreferrer"><i className = "fab fa-github"></i></a>
                     </li>
                     <li>

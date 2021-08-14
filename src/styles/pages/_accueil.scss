@@ -9,6 +9,7 @@
          border-radius: $borderRadius;
          position: relative;
          overflow: hidden;
+        
          &:after{
              content: '';
              position: absolute;
@@ -21,7 +22,7 @@
          }
          .content{
              position: absolute;
-             top: 20%;
+             top: 10%;
              left: 13%;
              font-family: $font-5;
              h1{
@@ -66,14 +67,22 @@
 @media screen and(max-width: 850px){
     .accueilContent{
         margin: 0 !important;
+       
     }
 
 }
 @media screen and(max-width: 580px){
     .accueilContent{
-        &:hover{
-            background: url('../../media/bigGates.jpg') no-repeat 20% 30%/cover !important;
+        margin-right: 1rem !important;
+        padding-right: 0 !important;
+        width: 100%;
+        &:after{
+            background: url('../../media/jeanchris.jpg') no-repeat 40% 30%/cover !important;
         }
+       .sidebar{
+           margin-bottom: 2px;
+       }
+        
         h1{
             font-size: 3rem !important;
         }
