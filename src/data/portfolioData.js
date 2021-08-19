@@ -29,7 +29,7 @@ export const portfolioData = [
   {
     id: 4,
     name: 'smblsemedo.com',
-    languages: ['javascript', 'react'],
+    languages: ['javascript', 'wordpress'],
     languagesIcons: ['fab fa-wordpress'],
     source: 'http://www.smblsemedo.com',
     info: 'Site Vitrine : pour une entreprise de construction',
@@ -38,7 +38,7 @@ export const portfolioData = [
   {
     id: 5,
     name: 'Symfony',
-    languages: ['javascript', 'html', 'css'],
+    languages: ['javascript', 'php', 'symfony'],
     languagesIcons: ['fab fa-php'],
     source: 'https://github.com/christophegomis89/projet-Symfony-BD'
     ,
@@ -47,7 +47,7 @@ export const portfolioData = [
   },
   {
     id: 6,
-    name: 'Projet react',
+    name: 'gsportnews.fr',
     languages: ['javascript', 'react'],
     languagesIcons: ['fab fa-js', 'fab fa-react'],
     source: 'https://gsportnews.fr',
