@@ -32,7 +32,7 @@ export const portfolioData = [
     languages: ['javascript', 'react'],
     languagesIcons: ['fab fa-wordpress'],
     source: 'http://www.smblsemedo.com',
-    info: 'Site d\'iformation sportif :Presentation de la la 4e compétences de la formation DWWM -03 -2020 à l\'afpa de Créteil  : Auteur Jean Christophe Gomis',
+    info: 'Site Vitrine : pour une entreprise de construction',
     picture: './media/football.jpg'
   },
   {
